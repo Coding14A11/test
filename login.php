@@ -29,7 +29,8 @@
 		}
     }
 	
-	if(!isset($_SESSION["username"])){
+	if(!isset($_SESSION["userName"])){
 		header("Location: index.php");
 	}
+	
 ?>
